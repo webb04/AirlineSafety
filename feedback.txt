@@ -1,0 +1,23 @@
+Node.js! nice server side language to append to the feed so that the client can subscribe.
+
+window object used in pusher-platform.js that makes Node.js impossible atm :(
+
+In the docs it says "More Examples" rather than "More example"?
+
+some hardcoded credentials in the js file:
+xhr_1.send("grant_type=client_credentials&credentials=jim"); // FIXME credentials should come from a session cookie or similar
+
+Maybe some more examples of applications where this pattern would useful!
+
+get a js error at the end of getting feed:
+index.html:33 Error: Error: Unexpected end to Feed subscription
+    at Object.onEnd (pusher-platform.js:364)
+    at XMLHttpRequest.Subscription.xhr.onreadystatechange (pusher-platform.js:134)
+
+Would like to delete records from the online dashboard.
+
+Like how it creates a new feed from the js (no need to add to dashboard before hand)
+
+Really like the copy and paste and it works style!
+
+Overall really like the API, nice and simple :) separated front end and backend tasks nicely, we used it as a Queue.
